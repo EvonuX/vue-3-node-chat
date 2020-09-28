@@ -1,0 +1,25 @@
+button,
+input {
+  border: none;
+  background-color: transparent;
+  font-family: inherit;
+  transition: all 0.3s;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+  }
+}
+
+.input {
+  background-color: #f4f4f4;
+  padding: 1rem 1.7rem;
+  border-radius: 0.3rem;
+
+  &--group {
+    margin: 1.3rem 0;
+  }
+}
